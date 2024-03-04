@@ -91,7 +91,7 @@ body {
 	font-family: "Poppins", sans-serif;
     display: block;
     width: 376px;
-    height: calc(1.5em + 0.75rem + 2px);
+    height: 46px;
     padding: 0.375rem 0.75rem;
     font-size: 14px;
     font-weight: 400;
@@ -125,4 +125,19 @@ body {
 .enter-btn:hover {
 	background: rgba(190, 116, 210, 1);
 	border: 1px solid rgba(185, 135, 206, 1);
+}
+
+.create-account, .forgot-password {
+	font-size: 12px;
+	color: rgba(227, 227, 227, 1);
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.create-account {
+	padding-left: 23px;
+}
+
+.forgot-password {
+	padding-right: 150px;
 }
