@@ -2,12 +2,13 @@
 
 
 body {
+	width: auto;
 	font-family: "Poppins", sans-serif;
 }
 
 .wrapper-up {
 	background-image: url('https://raw.githubusercontent.com/superstuckattack/freedomwow/f3fb0bfbaadfdb093383327aad6324b33e90971b/assest/img/wrapup.svg');
-	background-color: #333;
+	background-color: #f0f0f0;
   	height: 783px; 
   	background-position: center;
   	background-repeat: no-repeat;
@@ -15,8 +16,8 @@ body {
 }
 
 .wrapper-down {
-	background-image: url('https://raw.githubusercontent.com/superstuckattack/freedomwow/f3fb0bfbaadfdb093383327aad6324b33e90971b/assest/img/wrapup.svg');
-	background-color: #333;
+	background-image: url('https://raw.githubusercontent.com/superstuckattack/freedomwow/ca08e7a3a47fc61cfd5f5b66a381f9de98fd2f32/assest/img/wrapdown.svg');
+	background-color: #f0f0f0;
   	height: 1573px; 
   	background-position: center;
   	background-repeat: no-repeat;
@@ -38,6 +39,7 @@ body {
 .nav-link-block {
 	padding-left: 150px;
 }
+
 .nav-link {
 	color: rgba(227, 227, 227, 1);
 	font-size: 14px;
@@ -46,4 +48,9 @@ body {
 	text-align: left;
 	color: #fff;
 	text-transform: uppercase;
+}
+
+
+.nav-link:hover {
+	color: #B987CE;
 }
