@@ -6,13 +6,27 @@ body {
 }
 
 .wrapper-up {
-	background-image: url('./assest/img/wrapup.svg')
+	background-image: url('https://raw.githubusercontent.com/superstuckattack/freedomwow/f3fb0bfbaadfdb093383327aad6324b33e90971b/assest/img/wrapup.svg');
+	background-color: #333;
+  	height: 783px; 
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.wrapper-down {
+	background-image: url('https://raw.githubusercontent.com/superstuckattack/freedomwow/f3fb0bfbaadfdb093383327aad6324b33e90971b/assest/img/wrapup.svg');
+	background-color: #333;
+  	height: 1573px; 
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
 }
 
 .navbar {
 	background-color: rgba(49, 28, 72, 0.4);
 	height: 50px;
-	top: 8px;
+	top: 16px;
 	box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.5);
 }
 
@@ -26,7 +40,8 @@ body {
 }
 .nav-link {
 	color: rgba(227, 227, 227, 1);
-	font-size: 13px;
+	font-size: 14px;
+	font-weight: 600;
 	letter-spacing: 0em;
 	text-align: left;
 	color: #fff;
