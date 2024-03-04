@@ -1,6 +1,4 @@
-@import url('http0;1,s://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,30400;1,500;1,600;1,700;1,800;1,900&display=swap')
-
-
+@import url('https://fonts.cdnfonts.com/css/poppins?styles=20394,170442,20389,170444,20397,170447,20398,170441,20387,170436,20388,170443,20390,170435,20391,170434,20392,170448,20393,170438,20395,170439,20396,170451,20383,170445,20384,170449,20385,170450,20386,170446,20381,170437,20382,170440');
 body {
 	width: auto;
 	font-family: "Poppins", sans-serif;
@@ -13,6 +11,7 @@ body {
   	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
+  	padding-top: 18px;
 }
 
 .wrapper-down {
@@ -24,33 +23,41 @@ body {
   	background-size: cover;
 }
 
-.navbar {
+.navbarfluid {
+	padding: 0px;
+	margin: 0px;
+	border-radius: 3px;
 	background-color: rgba(49, 28, 72, 0.4);
-	height: 50px;
-	top: 16px;
+	height: 94px;
 	box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.5);
 }
 
+.navbar {
+	padding: 0px;
+	margin: 0px;
+}
+
 .logotype {
+	padding: 0px;
+	margin: 0px;
 	width: 249px;
 	height: 87px;
 }
 
-.nav-link-block {
-	padding-left: 150px;
-}
-
 .nav-link {
 	color: rgba(227, 227, 227, 1);
-	font-size: 14px;
-	font-weight: 600;
+	font-size: 16px;
+	font-weight: 500;
 	letter-spacing: 0em;
 	text-align: left;
 	color: #fff;
 	text-transform: uppercase;
 }
 
-
 .nav-link:hover {
 	color: #B987CE;
 }
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(227, 227, 227, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+} 
