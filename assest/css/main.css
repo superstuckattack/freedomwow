@@ -61,3 +61,68 @@ body {
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(227, 227, 227, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 } 
+
+.account-form {
+	width: 424px;
+	height: 496px;
+	background: rgba(49, 28, 72, 0.8);
+	margin-top: 60px;
+	border-radius: 3px;
+	margin-left: auto;
+	border: 2px solid rgba(109, 76, 145, 0.5);
+}
+
+.account-form input {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+}
+.h3 {
+	color: rgba(227, 227, 227, 1);
+}
+
+.account-form > .h3 {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.form-control {
+	font-family: "Poppins", sans-serif;
+    display: block;
+    width: 376px;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: rgba(21, 4, 22, 0.7);
+    background-clip: padding-box;
+    border: 0px solid rgba(21, 4, 22, 0.7);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: rgba(21, 4, 22, 0.7);
+    border-color: #495057;
+    outline: 0;
+}
+
+.enter-btn {
+	background: rgba(154, 94, 171, 1);
+	border: 1px solid rgba(154, 94, 171, 1);
+	width: 256px;
+	height: 64px;
+	top: 372px;
+	left: 84px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+}
+
+.enter-btn:hover {
+	background: rgba(190, 116, 210, 1);
+	border: 1px solid rgba(185, 135, 206, 1);
+}
