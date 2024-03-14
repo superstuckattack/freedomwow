@@ -134,3 +134,19 @@ body {
 	padding: 12px 30px;
 	background-color: rgba(29, 29, 29, .9);
 }
+
+.short-lastnews {
+	padding-top: 10rem;
+}
+
+.short-lastnews h3 {
+	color: #fff;
+	font-size: 22px;
+	font-weight: 600;
+	text-shadow: #242424 3px 0 10px;
+}
+
+.short-lastnews a {
+	color: #007BFF;
+	font-size: 16px;
+}
