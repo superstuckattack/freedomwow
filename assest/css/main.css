@@ -12,19 +12,18 @@ body {
 	font-family: "Sofia Sans", sans-serif;
 }
 
-.wrapper-main-bg {
-	background-image: url("../assest/img/main-bg.webp");
+.wrapper-main {
+	background-image: url("https://i.ibb.co/5TT5sk1/main-bg.webp");
   	background-color: #242424; 
-  	height: 500px;
+  	height: 800px;
   	background-position: center;
   	background-repeat: no-repeat; 
   	background-size: cover; 
 }
 .nav-bg {
-	background-color: #292929;
+	background-color: rgba(41, 41, 41, .95);
 	border-radius: 3px;
-	margin-top: 10px;
-	box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+	box-shadow: rgba(25, 25, 25, 0.2) 0 0 1px 0, rgba(0, 0, 0, 0.2) 0 6px 8px 0;
 }
 
 .navbar {
@@ -89,3 +88,48 @@ body {
 	border-radius: 3px;
 }
 
+.main-promo {
+	color: #fff;
+	padding-top: 10rem;
+}
+
+.main-promo-text p {
+	font-size: 19px;
+	text-shadow: #242424 2px 0 10px;
+}
+
+.main-promo-btn {
+	column-gap: 15px;
+}
+
+.reg-btn {
+	font-size: 20px;
+	color: #fff;
+	padding: 12px 30px;
+	background-color: #43B448;
+	border-radius: 3px;
+	box-shadow: rgba(25, 25, 25, 0.2) 0 0 1px 0, rgba(0, 0, 0, 0.2) 0 6px 8px 0;
+}
+
+.reg-btn:hover {
+	background-color: #3AA33E;
+	text-decoration: none;
+	color: #fff;
+}
+
+.connect-btn {
+	font-size: 20px;
+	color: #fff;
+	padding: 12px 30px;
+	background-color: rgba(29, 29, 29, .7);
+	border-radius: 3px;
+	box-shadow: rgba(25, 25, 25, 0.2) 0 0 1px 0, rgba(0, 0, 0, 0.2) 0 6px 8px 0;
+}
+
+.connect-btn:hover {
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+	padding: 12px 30px;
+	background-color: rgba(29, 29, 29, .9);
+}
