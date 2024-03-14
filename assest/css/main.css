@@ -146,7 +146,12 @@ body {
 	text-shadow: #242424 3px 0 10px;
 }
 
-.short-lastnews a {
-	color: #007BFF;
+.nav-lastnews {
+	column-gap: 15px;
+}
+
+.nav-lastnews a {
+	color: #f8b700;
 	font-size: 16px;
 }
+
