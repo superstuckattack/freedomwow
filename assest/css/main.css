@@ -15,7 +15,7 @@ body {
 .wrapper-main {
 	background-image: url("https://i.ibb.co/5TT5sk1/main-bg.webp");
   	background-color: #242424; 
-  	height: 100vh;
+  	height: 60vh;
   	background-position: center;
   	background-repeat: no-repeat; 
   	background-size: cover; 
@@ -185,4 +185,8 @@ body {
 	padding-left: 15px;
 	height: 250px;
 	width: 179px;
+}
+
+.card {
+	width: auto;
 }
